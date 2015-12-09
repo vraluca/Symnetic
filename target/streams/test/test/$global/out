@@ -1,0 +1,112 @@
+[0m[[0minfo[0m] [0m[32mTestModelExample:[0m[0m
+[0m[[0minfo[0m] [0m[32mA valid model[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to produce concrete examples[0m[0m
+[0m[[0minfo[0m] [0m[32mMamaIeiDeReteauaFacultatii:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe ASA[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be parsable[0m[0m
+[0m[[0minfo[0m] [0m[32mFacultatea[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work[0m[0m
+[0m[[0minfo[0m] [0m[32mRuleVerificationTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mA file with rules[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be parsable and result in an executor[0m[0m
+[0m[[0minfo[0m] [0m[32mRules[0m[0m
+[0m[[0minfo[0m] [0m[32m- should should add constraints to ports[0m[0m
+[0m[[0minfo[0m] [0m[32mIPClassifierTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mA src-classif-dst click[0m[0m
+[0m[[0minfo[0m] [0m[32m- should branch correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mA src-classif-dst click[0m[0m
+[0m[[0minfo[0m] [0m[32m- should classify correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mZ3Validity:[0m[0m
+[0m[[0minfo[0m] [0m[32mA clean MemorySpace[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be Z3-valid[0m[0m
+[0m[[0minfo[0m] [0m[32mA constant[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not be equal to another[0m[0m
+[0m[[0minfo[0m] [0m[32mDup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should make symbols equal[0m[0m
+[0m[[0minfo[0m] [0m[32mUtilTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mIP and mask to interval[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the same result no matter what notation is used[0m[0m
+[0m[[0minfo[0m] [0m[32mCiscoBehemotSwitch:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe behemot[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be parseable to a click executor[0m[0m
+[0m[[0minfo[0m] [0m[32mExecuteMultipleClicksTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mMultiple click files[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce a valid execution context[0m[0m
+[0m[[0minfo[0m] [0m[32mMultiple click files with traffic rules[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce a valid execution context[0m[0m
+[0m[[0minfo[0m] [0m[32mAggregated executor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should execute correctly, accross multiple clicks[0m[0m
+[0m[[0minfo[0m] [0m[32mAggregated executor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should execute correctly, accross multiple clicks, even with failing conditions[0m[0m
+[0m[[0minfo[0m] [0m[32mAggregated executor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should execute correctly, accross multiple clicks, even with cascading failing conditions[0m[0m
+[0m[[0minfo[0m] [0m[32mAlwaysOk:[0m[0m
+[0m[[0minfo[0m] [0m[32mZ3[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work[0m[0m
+[0m[[0minfo[0m] [0m[32mClickToExecutorTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mA src-dst click[0m[0m
+[0m[[0minfo[0m] [0m[32m- should generate a valid no op executor[0m[0m
+[0m[[0minfo[0m] [0m[32mA src-dst click executor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should propagate the bing-bang state to dst, becoming stuck[0m[0m
+[0m[[0minfo[0m] [0m[32mA src-paint-dst executor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should correctly paint the bloody flow[0m[0m
+[0m[[0minfo[0m] [0m[32mA src-classif-dst click[0m[0m
+[0m[[0minfo[0m] [0m[32m- should generate a valid executor[0m[0m
+[0m[[0minfo[0m] [0m[32mBasicProcessingTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mISNRToOutside[0m[0m
+[0m[[0minfo[0m] [0m[32m- should rewrite SEQ[0m[0m
+[0m[[0minfo[0m] [0m[32mISNR to outside and back[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve SEQ value[0m[0m
+[0m[[0minfo[0m] [0m[32mNAT to outside and back[0m[0m
+[0m[[0minfo[0m] [0m[32m- should preserve initial values[0m[0m
+[0m[[0minfo[0m] [0m[32mIPRewriterTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mAn executor context[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be built from a click having an IPRewriter[0m[0m
+[0m[[0minfo[0m] [0m[32mIPRewriter patterns[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match valid input patterns[0m[0m
+[0m[[0minfo[0m] [0m[32mAn executor context[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be built from a click having an IPRewriter with rewrite patterns[0m[0m
+[0m[[0minfo[0m] [0m[32mInstructionTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mRewrite[0m[0m
+[0m[[0minfo[0m] [0m[32m- should push another value on the assignment stack[0m[0m
+[0m[[0minfo[0m] [0m[32mDup[0m[0m
+[0m[[0minfo[0m] [0m[32m- should make two symbol refer the same value[0m[0m
+[0m[[0minfo[0m] [0m[32mConstrain[0m[0m
+[0m[[0minfo[0m] [0m[32m- should correctly add another constraint to a symbol[0m[0m
+[0m[[0minfo[0m] [0m[32mIf[0m[0m
+[0m[[0minfo[0m] [0m[32m- should branch execution correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mIf[0m[0m
+[0m[[0minfo[0m] [0m[32m- should branch execution correctly in case of symbolics[0m[0m
+[0m[[0minfo[0m] [0m[32mDeferrable E[0m[0m
+[0m[[0minfo[0m] [0m[32m- should pass when applied to the same expression[0m[0m
+[0m[[0minfo[0m] [0m[32mTagTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mTag arithmetic[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work[0m[0m
+[0m[[0minfo[0m] [0m[32mTag instruction[0m[0m
+[0m[[0minfo[0m] [0m[32m- should properly set memory tags[0m[0m
+[0m[[0minfo[0m] [0m[32mOverwriting a raw object with one of a different size, yet the same start address[0m[0m
+[0m[[0minfo[0m] [0m[32m- should cause a failure[0m[0m
+[0m[[0minfo[0m] [0m[32mRaw objects[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not be ovelapping[0m[0m
+[0m[[0minfo[0m] [0m[32mBasic instructions involving tags[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 5 seconds, 949 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 39[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 14, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 39, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	InstructionTests[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.rule.RuleVerificationTests[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.IPRewriterTests[0m
+[0m[[0mdebug[0m] [0m	BasicProcessingTests[0m
+[0m[[0mdebug[0m] [0m	AlwaysOk[0m
+[0m[[0mdebug[0m] [0m	util.UtilTests[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.ClickToExecutorTests[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.MamaIeiDeReteauaFacultatii[0m
+[0m[[0mdebug[0m] [0m	modelexample.TestModelExample[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.CiscoBehemotSwitch[0m
+[0m[[0mdebug[0m] [0m	tagarithm.TagTests[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.multipleclicks.ExecuteMultipleClicksTest[0m
+[0m[[0mdebug[0m] [0m	clickfiletoexecutor.IPClassifierTests[0m
+[0m[[0mdebug[0m] [0m	Z3Validity[0m

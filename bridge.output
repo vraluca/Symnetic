@@ -1,0 +1,138 @@
+Ok states (0):
+
+Stuck states (2):
+State #0
+
+Forward(fromDevice-0-out)
+AssignNamedSymbol(IPAddr,[Constant 2130706433],GenericNumeric)
+AssignNamedSymbol(IPAddr2,[Constant 2147483649],GenericNumeric)
+AssignNamedSymbol(zero,[Constant 0],GenericNumeric)
+AssignNamedSymbol(diff,[Symbolic #963036846762930827],GenericNumeric)
+ConstrainNamedSymbol(diff,:~:(:>:(Symbol(zero))),Some(~(>([Constant 0]))))
+Forward(bridge-0-1-out)
+
+Path (OK) {
+Tags:Memory values:
+IPAddr -> (Crt:Some(Value {
+Expression: [Constant 2130706433]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 2130706433]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+IPAddr2 -> (Crt:Some(Value {
+Expression: [Constant 2147483649]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 2147483649]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+zero -> (Crt:Some(Value {
+Expression: [Constant 0]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 0]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+diff -> (Crt:Some(Value {
+Expression: [Symbolic #963036846762930827]
+Type: GenericNumeric
+Constraints:
+	 ~(>([Constant 0]))
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Symbolic #963036846762930827]
+Type: GenericNumeric
+Constraints:
+	 ~(>([Constant 0]))
+} End Of Value Desc
+))
+
+} End Of Path Desc
+State #1
+
+Forward(fromDevice-0-out)
+AssignNamedSymbol(IPAddr,[Constant 2130706433],GenericNumeric)
+AssignNamedSymbol(IPAddr2,[Constant 2147483649],GenericNumeric)
+AssignNamedSymbol(zero,[Constant 0],GenericNumeric)
+AssignNamedSymbol(diff,[Symbolic #963036846762930827],GenericNumeric)
+ConstrainNamedSymbol(diff,:>:(Symbol(zero)),Some(>([Constant 0])))
+Forward(bridge-0-0-out)
+Forward(toDevice-0-out)
+
+Path (OK) {
+Tags:Memory values:
+IPAddr -> (Crt:Some(Value {
+Expression: [Constant 2130706433]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 2130706433]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+IPAddr2 -> (Crt:Some(Value {
+Expression: [Constant 2147483649]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 2147483649]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+zero -> (Crt:Some(Value {
+Expression: [Constant 0]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 0]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+diff -> (Crt:Some(Value {
+Expression: [Symbolic #963036846762930827]
+Type: GenericNumeric
+Constraints:
+	 >([Constant 0])
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Symbolic #963036846762930827]
+Type: GenericNumeric
+Constraints:
+	 >([Constant 0])
+} End Of Value Desc
+))
+
+} End Of Path Desc
+Failed states (0): 
+

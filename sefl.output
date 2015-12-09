@@ -1,0 +1,55 @@
+OK States (0}):
+
+
+Failed States (1}):
+State #0
+
+AssignNamedSymbol(a,[Symbolic #22795784075410084],GenericNumeric)
+AssignNamedSymbol(zero,[Constant 0],GenericNumeric)
+ConstrainNamedSymbol(a,:>:(Symbol(zero)),None)
+AssignNamedSymbol(sum,:+:(Symbol(a),Symbol(zero)),GenericNumeric)
+ConstrainNamedSymbol(sum,:==:(Symbol(zero)),None)
+
+Path (Symbol sum cannot :==:(Symbol(zero))) {
+Tags:Memory values:
+a -> (Crt:Some(Value {
+Expression: [Symbolic #22795784075410084]
+Type: GenericNumeric
+Constraints:
+	 >([Constant 0])
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Symbolic #22795784075410084]
+Type: GenericNumeric
+Constraints:
+	 >([Constant 0])
+} End Of Value Desc
+))
+zero -> (Crt:Some(Value {
+Expression: [Constant 0]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: [Constant 0]
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+sum -> (Crt:Some(Value {
+Expression: ([Symbolic #22795784075410084] + [Constant 0])
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+),Initital: Some(Value {
+Expression: ([Symbolic #22795784075410084] + [Constant 0])
+Type: GenericNumeric
+Constraints:
+	 
+} End Of Value Desc
+))
+
+} End Of Path Desc

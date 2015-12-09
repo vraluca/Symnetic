@@ -1,0 +1,44 @@
+[0m[[0minfo[0m] [0mRunning org.change.v2.runners.experiments.BridgeRunner [0m
+[0m[[31merror[0m] [0mException in thread "main" java.lang.IndexOutOfBoundsException: 1[0m
+[0m[[31merror[0m] [0m	at scala.collection.LinearSeqOptimized$class.apply(LinearSeqOptimized.scala:65)[0m
+[0m[[31merror[0m] [0m	at scala.collection.immutable.List.apply(List.scala:84)[0m
+[0m[[31merror[0m] [0m	at org.change.v2.Bridge.instructions(Bridge.scala:41)[0m
+[0m[[31merror[0m] [0m	at org.change.v2.executor.clickabstractnetwork.ClickExecutionContext$$anonfun$5.apply(ClickExecutionContext.scala:139)[0m
+[0m[[31merror[0m] [0m	at org.change.v2.executor.clickabstractnetwork.ClickExecutionContext$$anonfun$5.apply(ClickExecutionContext.scala:139)[0m
+[0m[[31merror[0m] [0m	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:155)[0m
+[0m[[31merror[0m] [0m	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:155)[0m
+[0m[[31merror[0m] [0m	at scala.collection.Iterator$class.foreach(Iterator.scala:742)[0m
+[0m[[31merror[0m] [0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1194)[0m
+[0m[[31merror[0m] [0m	at scala.collection.MapLike$DefaultValuesIterable.foreach(MapLike.scala:206)[0m
+[0m[[31merror[0m] [0m	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:155)[0m
+[0m[[31merror[0m] [0m	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:104)[0m
+[0m[[31merror[0m] [0m	at org.change.v2.executor.clickabstractnetwork.ClickExecutionContext$.fromSingle(ClickExecutionContext.scala:139)[0m
+[0m[[31merror[0m] [0m	at org.change.v2.runners.experiments.BridgeRunner$.main(BridgeRunner.scala:17)[0m
+[0m[[31merror[0m] [0m	at org.change.v2.runners.experiments.BridgeRunner.main(BridgeRunner.scala)[0m
+java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1628)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1628)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1628)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.BuildExtra$$anonfun$fullRunTask$1$$anonfun$apply$75.apply(Defaults.scala:1586)
+	at sbt.BuildExtra$$anonfun$fullRunTask$1$$anonfun$apply$75.apply(Defaults.scala:1585)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31merror[0m] [0m(*:[31mclick[0m) Nonzero exit code returned from runner: 1[0m

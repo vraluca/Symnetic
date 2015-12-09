@@ -1,0 +1,930 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/sinc/Symnetic/}symnetic...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: org.change#symnetic_2.11;0.2[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c7dfb50[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-library/2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-library;2.11.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom (2.11.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.1!scala-library.pom(pom.original) (403ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-library/2.11.1/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in jcenter[0m
+[0m[[0mdebug[0m] [0m	[2.11.1] org.scala-lang#scala-library;2.11.1[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr4;4.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4;4.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4/4.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr4;4.3[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#antlr4;4.3[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.pom (4.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4;4.3!antlr4.pom(pom.original) (440ms)[0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-master;4.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-master;4.3 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4-master/4.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr4-master;4.3[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#antlr4-master;4.3[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.pom (4.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-master;4.3!antlr4-master.pom(pom.original) (1659ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4-master/4.3/jars/antlr4-master.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/antlr/antlr4-master/4.3/antlr4-master-4.3.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/antlr/antlr4-master/4.3/antlr4-master-4.3.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/antlr/antlr4-master/4.3/antlr4-master-4.3.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4/4.3/jars/antlr4.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.antlr#antlr4;4.3 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-runtime;4.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-runtime;4.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4-runtime/4.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr4-runtime;4.3[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#antlr4-runtime;4.3[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.pom (4.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-runtime;4.3!antlr4-runtime.pom(pom.original) (389ms)[0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-master;4.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-master;4.3 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.antlr#antlr4-master;4.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.antlr#antlr4-master;4.3[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4-runtime/4.3/jars/antlr4-runtime.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.antlr#antlr4-runtime;4.3 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.abego.treelayout#org.abego.treelayout.core;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.abego.treelayout#org.abego.treelayout.core;1.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.abego.treelayout/org.abego.treelayout.core/1.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.abego.treelayout#org.abego.treelayout.core;1.0.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.abego.treelayout#org.abego.treelayout.core;1.0.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom (1.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.abego.treelayout#org.abego.treelayout.core;1.0.1!org.abego.treelayout.core.pom(pom.original) (391ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.abego.treelayout/org.abego.treelayout.core/1.0.1/jars/org.abego.treelayout.core.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.abego.treelayout#org.abego.treelayout.core;1.0.1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-annotations;4.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-annotations;4.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4-annotations/4.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr4-annotations;4.3[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#antlr4-annotations;4.3[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.pom (4.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-annotations;4.3!antlr4-annotations.pom(pom.original) (391ms)[0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-master;4.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-master;4.3 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.antlr#antlr4-master;4.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.antlr#antlr4-master;4.3[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr4-annotations/4.3/jars/antlr4-annotations.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.antlr#antlr4-annotations;4.3 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr-runtime;3.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr-runtime;3.5.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr-runtime/3.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr-runtime;3.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#antlr-runtime;3.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom (3.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr-runtime;3.5.2!antlr-runtime.pom(pom.original) (499ms)[0m
+[0m[[0minfo[0m] [0mResolving org.antlr#antlr-master;3.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr-master;3.5.2 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr-master/3.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr-master;3.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#antlr-master;3.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom (3.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr-master;3.5.2!antlr-master.pom(pom.original) (437ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.sonatype.oss/oss-parent/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.sonatype.oss#oss-parent;9[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.sonatype.oss#oss-parent;9[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (9)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.sonatype.oss#oss-parent;9!oss-parent.pom(pom.original) (456ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.sonatype.oss/oss-parent/9/jars/oss-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr-master/3.5.2/jars/antlr-master.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/antlr-runtime/3.5.2/jars/antlr-runtime.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.antlr#antlr-runtime;3.5.2 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.antlr#ST4;4.0.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#ST4;4.0.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/ST4/4.0.8/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#ST4;4.0.8[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.antlr#ST4;4.0.8[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom (4.0.8)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#ST4;4.0.8!ST4.pom(pom.original) (446ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;9[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.antlr/ST4/4.0.8/jars/ST4.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar[0m
+[0m[[0mdebug[0m] [0m	found org.antlr#ST4;4.0.8 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/commons-io/commons-io/2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom (2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.pom(pom.original) (395ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;25 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.apache.commons/commons-parent/25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;25[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.commons#commons-parent;25[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom (25)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;25!commons-parent.pom(pom.original) (497ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;9 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.apache/apache/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache#apache;9[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom (9)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;9!apache.pom(pom.original) (461ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.apache/apache/9/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.apache.commons/commons-parent/25/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/commons-io/commons-io/2.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.11;1.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-json_2.11;1.3.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/io.spray/spray-json_2.11/1.3.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for io.spray#spray-json_2.11;1.3.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for io.spray#spray-json_2.11;1.3.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom (1.3.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.pom(pom.original) (500ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/io.spray/spray-json_2.11/1.3.2/bundles/spray-json_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.11;1.3.2 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-library/2.11.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.6[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-library;2.11.6[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom (2.11.6)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.6!scala-library.pom(pom.original) (444ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in jcenter[0m
+[0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom (2.2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.pom(pom.original) (398ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom (2.11.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.pom(pom.original) (387ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in jcenter[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom (1.0.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.pom(pom.original) (381ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-runtime;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.abego.treelayout#org.abego.treelayout.core;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4-runtime;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr4-annotations;4.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#antlr4;4.3->org.antlr#ST4;4.0.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#ST4;4.0.8->org.antlr#antlr-runtime;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.antlr#antlr4;4.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for org.change#symnetic_2.11;0.2 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-compiler;2.11.1 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.1 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-compiler/2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.11.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-compiler;2.11.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom (2.11.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.1!scala-compiler.pom(pom.original) (372ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-compiler/2.11.1/jars/scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-compiler;2.11.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-compiler;2.11.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-reflect;2.11.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-reflect/2.11.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-reflect;2.11.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom (2.11.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.1!scala-reflect.pom(pom.original) (429ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang/scala-reflect/2.11.1/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.1 in jcenter[0m
+[0m[[0mdebug[0m] [0m	[2.11.1] org.scala-lang#scala-reflect;2.11.1[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-reflect;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom (1.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.pom(pom.original) (397ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/sinc/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/bundles/scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-compiler;2.11.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-compiler;2.11.1 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->jline#jline;2.11 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.11 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.11[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: jline#jline;2.11[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.11 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->jline#jline;2.11 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.change#symnetic_2.11;0.2->org.scala-lang#scala-library;2.11.1 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-compiler;2.11.1->...[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/sinc/Symnetic/target/resolution-cache/org.change/symnetic_2.11/0.2/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.1!scala-library.jar (3129ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4/4.3/antlr4-4.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4;4.3!antlr4.jar (3140ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar (780ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.jar(bundle) (2785ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-runtime;4.3!antlr4-runtime.jar (2539ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr4-annotations/4.3/antlr4-annotations-4.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-annotations;4.3!antlr4-annotations.jar (395ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.antlr#antlr-runtime;3.5.2!antlr-runtime.jar (940ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.antlr#ST4;4.0.8!ST4.jar (682ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.abego.treelayout#org.abego.treelayout.core;1.0.1!org.abego.treelayout.core.jar (471ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.6!scala-library.jar (5346ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle) (7681ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar (4732ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle) (802ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar (3685ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.1!scala-reflect.jar (1596ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle) (845ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 17389ms :: artifacts dl 39594ms[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 compile produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 runtime produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 test produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 provided produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 optional produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 compile-internal produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 runtime-internal produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 test-internal produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 plugin produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 sources produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 docs produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 pom produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
+[0m[[0mdebug[0m] [0m	report for org.change#symnetic_2.11;0.2 scala-tool produced in /home/sinc/Symnetic/target/resolution-cache/reports/org.change-symnetic_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (17389ms resolve - 39594ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
