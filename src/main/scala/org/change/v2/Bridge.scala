@@ -37,8 +37,6 @@ class Bridge(name: String,
    */
   override def instructions: Map[LocationId, Instruction] = Map(
     inputPortName(0) -> InstructionBlock(
-      Assign("IPAddr", ConstantValue( ipToNumber( configParams(0).value ) )),
-      Assign("IPAddr2", ConstantValue( ipToNumber( configParams(1).value ) )),
       Assign("zero", ConstantValue(0)),
       Assign("diff", SymbolicValue()), 
       If(Constrain("diff", :>:(:@("zero"))), Forward(outputPortName(0)), Forward(outputPortName(1)))

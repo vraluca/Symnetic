@@ -40,7 +40,7 @@ object BuilderFactory {
     case "VLANDecap" => VLANDecap.getBuilder(nameValue)
     case "HostEtherFilter" => HostEtherFilter.getBuilder(nameValue)
     case "Template"  => Template.getBuilder(nameValue)
-    case "Bridge" => Bridge.getBuilder(nameValue)
+    case "EtherSwitch" => Bridge.getBuilder(nameValue)
     case "AddTCPOptions"  => AddTCPOptions.getBuilder(nameValue)
     case "ScanTCPOptions"  => ScanTCPOptions.getBuilder(nameValue)
     //    case "IPFilter"  => IPFilter.getBuilder(nameValue)
@@ -81,7 +81,7 @@ object BuilderFactory {
     case "VLANDecap" => VLANDecap.getBuilder
     case "HostEtherFilter" => HostEtherFilter.getBuilder
     case "Template"  => Template.getBuilder
-    case "Bridge" => Bridge.getBuilder
+    case "EtherSwitch" => Bridge.getBuilder
     case "AddTCPOptions"  => AddTCPOptions.getBuilder
     case "ScanTCPOptions"  => ScanTCPOptions.getBuilder
 //    case "IPFilter"  => IPFilter.getBuilder
